@@ -1,0 +1,56 @@
+.show-text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f9fa; /* Optional: adds a light background */
+}
+
+.box {
+  width: 300px; /* Medium size container */
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.image-container {
+  margin-bottom: 20px;
+}
+
+.envelope-image {
+  width: 100%;
+  height: auto;
+}
+
+.text {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.show-button,
+.hide-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.show-button {
+  background-color: green;
+  color: white;
+}
+
+.hide-button {
+  background-color: red;
+  color: white;
+}
