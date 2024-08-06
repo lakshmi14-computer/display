@@ -10,14 +10,14 @@ function Header() {
     <div>
     <MDBNavbar light bgColor='info'>
        <MDBContainer fluid>
-         <MDBNavbarBrand href='#' className='text-light fw-bolder'>
+         <MDBNavbarBrand href='#' className='text-dark fw-bolder'>
            <img
-             src='https://cdn.dribbble.com/users/221753/screenshots/1214929/dribbl_counter.gif'
+             src='https://i.pinimg.com/originals/d3/01/fd/d301fdc8f718cc4e956c6456eb2af1ee.gif'
              height='30'
              alt=''
              loading='lazy'
            />
-         Counter App
+         Show Text
          </MDBNavbarBrand>
        </MDBContainer>
      </MDBNavbar>
